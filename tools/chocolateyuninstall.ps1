@@ -6,7 +6,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'ssms*'
   fileType      = 'EXE'
-  silentArgs    = "/qn /norestart"
+  silentArgs    = "/quiet /norestart"
   validExitCodes= @(0, 3010, 1605, 1614, 1641)
 }
 
